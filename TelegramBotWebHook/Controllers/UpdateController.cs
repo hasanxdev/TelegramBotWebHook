@@ -23,7 +23,7 @@ namespace TelegramBotWebHook.Controllers
         [HttpPost]
         public async Task Post(Update update)
         {
-            await botClient.SendTextMessageAsync(update.Message.Chat.Id, "پیام شما دریافت شد، ممنون از زحمات شما :).");
+            await botClient.SendTextMessageAsync(update.Message.Chat.Id, "پیام شما دریافت شد :).");
         }
     }
 }

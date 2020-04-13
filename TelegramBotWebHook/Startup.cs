@@ -35,7 +35,7 @@ namespace TelegramBotWebHook
             );
 
             var http = new HttpClient();
-            var bot = new TelegramBotClient("673897844:AAFB15u-E4lHzuzc40y9jkm_wV68jhyVexM", http);
+            var bot = new TelegramBotClient("TelegramBotToken", http);
 
             services.AddSingleton(http);
             services.AddSingleton(bot);
